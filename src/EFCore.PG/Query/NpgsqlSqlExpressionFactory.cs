@@ -11,6 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Query.Expressions.Internal;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.Mapping;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Utilities;
+using Npgsql;
 
 namespace Npgsql.EntityFrameworkCore.PostgreSQL.Query
 {

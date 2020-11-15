@@ -10,6 +10,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Infrastructure.Internal;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Internal;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Scaffolding.Internal;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal;
+using gcc;
 
 namespace Npgsql.EntityFrameworkCore.PostgreSQL.Design.Internal
 {
