@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Authors>Shay Rojansky</Authors>
+    <Description>NetTopologySuite PostGIS spatial support plugin for PostgreSQL/Npgsql Entity Framework Core provider.</Description>
+    <PackageTags>npgsql;postgresql;postgres;Entity Framework Core;entity-framework-core;ef;efcore;orm;sql;spatial;postgis;nts</PackageTags>
+
+    <AssemblyName>Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite</AssemblyName>
+    <RootNamespace>Npgsql.EntityFrameworkCore.PostgreSQL.NetTopologySuite</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EFCore.PG\EFCore.PG.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Npgsql.NetTopologySuite" />
+  </ItemGroup>
+
+  <ItemGroup>
+
+    <Compile Include="..\Shared\*.cs" />
+
+    <None Include="build\**\*">
+      <Pack>True</Pack>
+      <PackagePath>build</PackagePath>
+    </None>
+
+  </ItemGroup>
+
+</Project>
